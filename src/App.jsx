@@ -9,14 +9,14 @@ function App() {
   
 
   return (
-    <div className='w-full max-w-[100vw] min-h-[100lvh]'>
-      <div className='w-full flex flex-col items-center'>
-        <Navbar />    
+    <div className='w-full max-w-[100vw] min-h-[100lvh] flex flex-col relative font-display'>
+      <Navbar />    
+      <div className="container mt-20 mx-auto">
         <HeroSection />
         <AboutSection />
         <Banner />
-        <Footer />
       </div>
+      <Footer />
     </div>
   )
 }

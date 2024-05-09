@@ -2,7 +2,12 @@
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        display: 'Karla',
+        title: 'DM Serif Display'
+      }
+    },
   },
   plugins: [],
 }
