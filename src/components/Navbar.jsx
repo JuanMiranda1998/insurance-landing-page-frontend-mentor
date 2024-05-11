@@ -15,12 +15,12 @@ const Navbar = () => {
       }
 
   return (
-    <nav className={`fixed bg-white top-0 left-0 right-0 z-10 mx-auto`}>
-      <div className="flex flex-row justify-between items-center px-6 lg:px-8 py-6">
+    <nav className="fixed md:relative w-full bg-white top-0 left-0 right-0 z-10 mx-auto">
+      <div className="flex flex-row justify-between items-center px-6 lg:px-32 py-6 lg:py-8">
         <div className="w-28">
           <img className="w-full h-full" src="/logo.svg" alt="insurance logo" />
         </div>
-        <div className="flex lg:hidden">
+        <div className="flex md:hidden">
           {!navbarOpen? (
           <button onClick={handleMenuOpen}>
             <img src="/icons/icon-hamburger.svg" alt="" />
@@ -31,13 +31,12 @@ const Navbar = () => {
           </button>
           )}
         </div>
-
-        <div className="hidden lg:flex flex-row justify-evenly">
-          <ul>
+        <div className="hidden md:block">
+          <ul className="flex flex-row justify-evenly gap-6">
               {NAVLINKS.map((link, index) => (
-              <li key={index}><a href="#">{link}</a></li>
+              <li key={index}><a className="uppercase text-[#7f7d82] font-semibold mb-6" href="#">{link}</a></li>
               ))}
-              <li><a href="#">View plans</a></li>
+              <li><a className="px-9 py-3 border-2 border-[#2d2640] uppercase font-semibold" href="#">View plans</a></li>
           </ul>
         </div>
       </div>
