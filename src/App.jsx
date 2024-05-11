@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='w-full max-w-[100vw] min-h-[100lvh] flex flex-col relative font-display'>
       <Navbar />    
-      <div className='container mt-20 lg:mt-0 mx-auto'>
+      <div className='container mt-20 lg:mt-0 lg:px-32 mx-auto'>
         <HeroSection />
         <AboutSection />
         <Banner />
