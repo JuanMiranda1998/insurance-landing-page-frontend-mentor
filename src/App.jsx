@@ -9,9 +9,9 @@ function App() {
   
 
   return (
-    <div className=' w-full min-h-[100lvh] flex flex-col relative font-display'>
+    <div className='w-full min-h-[100lvh] flex flex-col relative font-display'>
       <Navbar />    
-      <div className='mt-20 lg:mt-0 w-full'>
+      <div className='mt-20 lg:mt-0'>
         <HeroSection />
         <AboutSection />
         <Banner />

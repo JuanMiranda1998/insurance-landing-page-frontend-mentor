@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='w-[320px] lg:w-full h-[2px] bg-[#d9d9d9] mx-auto my-10'></div>
-        <div className="flex flex-col lg:flex-row lg:justify-items-start lg:gap-36 text-center">
+        <div className="flex flex-col lg:flex-row lg:justify-items-start lg:gap-32 xl:gap-48 text-center">
           <div className="mb-6 lg:text-left">
             <h4 className="uppercase text-[#7f7d82] font-semibold mb-6">Our company</h4>
             <ul className="flex flex-col gap-2">
