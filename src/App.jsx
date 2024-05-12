@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='w-full min-h-[100lvh] flex flex-col relative font-display'>
       <Navbar />    
-      <div className='mt-20 lg:mt-0'>
+      <div className='mt-20 lg:mt-0 xl:bg-heroLeftDesktop xl:bg-[0rem_30rem] bg-no-repeat'>
         <HeroSection />
         <AboutSection />
         <Banner />
