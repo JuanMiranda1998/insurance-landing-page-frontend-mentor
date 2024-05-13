@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="fixed md:relative w-full bg-white top-0 left-0 right-0 z-10 mx-auto">
       <div className="flex flex-row justify-between items-center px-6 lg:px-32 py-6 lg:py-8">
-        <div className="w-28">
+        <div className="w-28 cursor-pointer">
           <img className="w-full h-full" src="/logo.svg" alt="insurance logo" />
         </div>
         <div className="flex md:hidden">
@@ -34,9 +34,9 @@ const Navbar = () => {
         <div className="hidden md:block">
           <ul className="flex flex-row justify-evenly gap-6">
               {NAVLINKS.map((link, index) => (
-              <li key={index}><a className="uppercase text-[#7f7d82] font-semibold mb-6" href="#">{link}</a></li>
+              <li key={index}><a className="uppercase text-[#7f7d82] font-semibold mb-6 hover:text-[#2b2830] transition-colors ease-in duration-150" href="#">{link}</a></li>
               ))}
-              <li><a className="px-9 py-3 border-2 border-[#2d2640] uppercase font-semibold" href="#">View plans</a></li>
+              <li><a className="px-9 py-3 xl:ml-2 border-2 border-[#2d2640] hover:bg-[#2b2830] hover:text-white transition-colors ease-in duration-150 uppercase font-semibold" href="#">View plans</a></li>
           </ul>
         </div>
       </div>

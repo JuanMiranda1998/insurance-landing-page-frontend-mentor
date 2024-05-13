@@ -1,7 +1,7 @@
 
 const AboutSection = () => {
   return (
-    <section className='px-5 py-24 lg:px-32'>
+    <section className='px-5 py-24 xl:py-32 xl:mt-44 lg:px-32'>
       <div className='w-32 h-[2px] bg-[#e7e7e7] mx-auto lg:ml-0 mb-12'></div>
         <h2 className='font-title text-[2.75rem] text-center lg:text-left mb-16'>We’re different</h2>
         <div className="max-w-[400px] lg:max-w-full mx-auto flex flex-col lg:flex-row justify-center items-center lg:gap-10">

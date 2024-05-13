@@ -16,7 +16,7 @@ const HeroSection = () => {
               and technology to help you find the plan that’s right for you. Ensure you
               and your loved ones are protected.
             </p>
-            <a className='px-8 py-3 border border-white uppercase tracking-wide' href="#">View plans</a>
+            <a className='px-8 py-3 border border-white uppercase tracking-wide hover:bg-white hover:text-[#2c2640] hover:font-semibold transition-all ease-in duration-150' href="#">View plans</a>
           </div>
         </div>
       </div>
