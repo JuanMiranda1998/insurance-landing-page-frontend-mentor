@@ -33,6 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/JuanMiranda1998/insurance-landing-page-frontend-mentor)
+- Live Site URL: [Netlify](https://insurance-page-juanmiranda.netlify.app/)
 
 
 ## My process

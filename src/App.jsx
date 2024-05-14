@@ -15,6 +15,13 @@ function App() {
         <Banner />
       </div>
       <Footer />
+      <div className="my-4 text-[#616476] text-center text-sm">
+        Challenge by{" "}
+        <a className="text-[#3e52a3]" href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by <a className="text-[#3e52a3]" href="https://github.com/JuanMiranda1998">Juan Miranda</a>.
+      </div>
     </div>
   )
 }

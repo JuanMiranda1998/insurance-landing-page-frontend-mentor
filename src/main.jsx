@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <meta name="author" content="Juan Miranda" />
         <meta name="language" content="en-us" />
         <meta name="theme" content="system" />
-        <meta name="siteUrl" content="https://www.example.com" />
+        <meta name="siteUrl" content="https://insurance-page-juanmiranda.netlify.app/" />
         <meta name="siteLogo" content="/logo.png" />
       </Helmet>
     </HelmetProvider>
